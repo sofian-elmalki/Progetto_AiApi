@@ -4,7 +4,6 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Monolog\Handler\FormattableHandlerTrait;
 
 class Domanda extends Model
 {
@@ -22,8 +21,7 @@ class Domanda extends Model
         "risposta4",
         "risposta5",
         "categoria",
-        "difficoltà_richiesta",
-        "difficoltà_utente",
+        "difficolta_utente",
         "numero_risposte_utente",
         "numero_risposte_non_date",
         "numero_risposte_sbagliate"

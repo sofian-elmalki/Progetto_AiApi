@@ -20,8 +20,8 @@ return new class extends Migration
             $table->string("risposta4");
             $table->string("risposta5"); 
             $table->string("categoria")->nullable();
-            $table->double("difficoltà_richiesta")->nullable();
-            $table->double("difficoltà_utente")->nullable();
+            $table->double("difficolta_richiesta")->nullable();
+            $table->double("difficolta_utente")->nullable();
             $table->integer("numero_risposte_utente")->default(0);
             $table->integer("numero_risposte_non_date")->default(0);
             $table->integer("numero_risposte_sbagliate")->default(0);
